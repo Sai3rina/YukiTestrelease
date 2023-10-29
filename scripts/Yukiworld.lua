@@ -36,6 +36,6 @@ elseif Place == 0x1202 then --namine room
         WriteString(Obj0+0x13f0,'P_EX100_ME\0')
     else --Revert costume changes
         WriteString(Obj0+0x13f0,'P_EX100\0')
-        WriteString(Obj0+0x42D0,'H_EX500\0')
+        WriteString(Obj0+0x4270,'H_EX500\0')
     end
 end
